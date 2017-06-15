@@ -5,7 +5,7 @@ import { Tasks } from '../api/tasks.js';
 import './task.html';
 
 Template.task.events({
-	'clicked .toggle-checked'() {
+	'click .toggle-checked'() {
 		Tasks.update(this._id, {
 			$set: { checked: ! this.checked },
 		});
