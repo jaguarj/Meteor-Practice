@@ -1,5 +1,9 @@
 /* CSS declarations go here */
 
+* {
+  border: 1px solid red;
+}
+
 body {
   font-family: sans-serif;
   background-color: #315481;
