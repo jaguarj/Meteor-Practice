@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>My New Page</title>
+    <meta name="description" content=" What kind of content are you talking about?">
+    <meta name="keywords" content="HTML,CSS,XML,JavaScript">
+    <meta name="author" content="#">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href=" PLACE NORMALIZE CSS FIRST BEFORE YOURS TO RESET CSS .css">
+    <link rel="stylesheet" type="text/css" href=" YOUR CSS EXTERNAL FILE PATH .css">
+    <script src="   YOUR EXTERNAL JS FILE GOES HERE!!  .js"></script>
+
+<style>
+
+body {
+	margin: 0;
+}
+
+/*
+
+The circle is here just to
+show the transparency of the
+glowing line.
+
+*/
+.circle {
+	width: 200px;
+	height: 200px;
+	border-radius: 50%;
+	background: orange;
+}
+
+.line {
+	position: relative;
+	top: -100px;
+	width: 100vw;
+	height: 3px;
+	background: red;
+	animation: glow .3s infinite alternate ease-in-out;
+}
+
+@keyframes glow {
+    from {box-shadow: 0px;}
+    to {box-shadow: 0px 0px 20px rgba(255, 0, 0, 1);}
+}
+
+</style>
+
+</head>
+    <body>
+
+    <div class="circle">
+
+    </div>
+
+    <div class="line">
+
+    </div>
+
+    <script></script>
+    </body>
+</html>
+
